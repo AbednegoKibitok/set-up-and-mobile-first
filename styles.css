@@ -6,9 +6,10 @@
     background-size: cover;
     background-position: center;
   }
+
   header {
     top: 44px;
-    bottom: 0px;
+    bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
