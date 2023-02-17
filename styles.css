@@ -64,6 +64,7 @@ body {
     align-items: center;
     gap: 16px;
     list-style-type: none;
+    padding-left: 8px;
   }
 
   .works {
@@ -81,6 +82,13 @@ body {
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
+  }
+
+  .canopy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
   }
 
   .canopi {
@@ -129,6 +137,7 @@ body {
     list-style-type: none;
     display: flex;
     gap: 16px;
+    padding-left: 0;
   }
 
   .frontend li {
@@ -147,6 +156,8 @@ body {
     border: 1px solid #6070ff;
     border-radius: 8px;
     background-color: inherit;
+    padding: 12px;
+    gap: 10px;
   }
 
   .card1 {
@@ -162,6 +173,10 @@ body {
   .about {
     background-color: #fff;
     border-radius: 0 100px 0 0 / 100px;
+    padding-top: 8%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-top: 16%;
   }
 
   .languages {
@@ -175,10 +190,13 @@ body {
     line-height: 24px;
     color: #000;
     margin: 24px;
+    list-style-type: none;
+    padding-left: 0;
   }
 
   .prlanguages {
     list-style-type: none;
+    padding-left: 0;
   }
 
   .prlanguages li {
@@ -193,9 +211,21 @@ body {
     line-height: 20px;
     color: #253858;
     margin: 16px;
+    gap: 16px;
+    padding: 12px;
   }
 
   .frontend li:hover {
+    cursor: pointer;
     border: solid #6070ff;
+  }
+
+  .seeproject:hover {
+    cursor: pointer;
+    border: solid #6070ff;
+  }
+
+  .separa {
+    width: 100%;
   }
 }
