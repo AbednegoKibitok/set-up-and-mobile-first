@@ -189,7 +189,9 @@ body {
     font-size: 20px;
     line-height: 24px;
     color: #000;
-    margin: 24px;
+    margin-left: 24px;
+    margin-top: 0;
+    margin-bottom: 0;
     list-style-type: none;
     padding-left: 0;
   }
@@ -222,7 +224,12 @@ body {
 
   .seeproject:hover {
     cursor: pointer;
-    border: solid #6070ff;
+    color: #fff;
+    background-color: #6070ff;
+  }
+
+  .seeproject:active {
+    box-shadow: 2px 2px 5px #6070ff;
   }
 
   .separa {
