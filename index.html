@@ -145,7 +145,7 @@
         <div id="about">
             <ul class="languages">
                 <li><h4>Languages</h4></li>
-                <li><img src="icons/un.png" alt="un.png"></li>
+                <li><img class="separ" src="icons/un.png" alt="un.png"></li>
             </ul>
             <ul class="prlanguages">
                 <li><img src="icons/Ellipse 1.png" alt="Ellipse">Javascript</li>
@@ -154,15 +154,29 @@
             </ul>
             <ul class="languages">
                 <li><h4>Frameworks</h4></li>
-                <li><img src="icons/u.png" alt="un.png"></li>
+                <li><img class="separ" src="icons/u.png" alt="un.png"></li>
             </ul>
             <img class="separa" src="icons/Separator Bottom.png" alt="Separator">
             <ul class="languages">
                 <li><h4>Skills</h4></li>
-                <li><img src="icons/u.png" alt="un.png"></li>
+                <li><img class="separ" src="icons/u.png" alt="un.png"></li>
             </ul>
             <img class="separa" src="icons/Separator Bottom.png" alt="Separator">
         </div>
-    </section>  
+    </section> 
+    <section class="contactform">
+        <img class="contactshapes" src="icons/contact form shapes-mobile@2x.png" alt="contactimage">
+        <article class="contactme">
+            <h2 class="cme">Contact me</h2>
+            <p class="pme">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+        </article>
+        <form class="form" action="https://formspree.io/f/mnqydvzj" method="post">
+            <input name="Name" id="name" type="text" placeholder="Name..." maxlength="30" required><br>
+            <input name="Email" id="email" type="email" placeholder="you@example.com" required><br>
+            <textarea name="message" id="textarea" placeholder="Write your message here..." maxlength="500" required></textarea><br>
+            <button class="submitted" type="submit">Get in touch</button>
+        </form>
+        <div class="end"></div>
+    </section> 
 </body>
 </html>
