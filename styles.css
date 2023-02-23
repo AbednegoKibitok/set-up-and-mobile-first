@@ -233,29 +233,30 @@ header {
   }
 
   .headline {
-    height: 100vh;
     background-image: url(icons/Header\ bg@2x.png);
     background-size: cover;
   }
 
   #main {
-    margin-left: 8vw;
-    margin-right: 8vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
   }
 
   #heading {
-    margin-left: 8vw;
-    margin-right: 8vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding-top: 15%;
   }
 
   #connect {
-    margin-left: 8vw;
-    margin-right: 8vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
   }
 
   #social {
-    margin-left: 8vw;
-    margin-right: 8vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding-bottom: 15%;
   }
 
   .main {
@@ -324,12 +325,17 @@ header {
   .card1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 16px;
     border-radius: 16px;
     border: solid #e5e5e5 1px;
     background-color: #fff;
     gap: 24px;
+  }
+
+  .imge {
+    width: 544px;
+    height: 448px;
   }
 
   .about {
@@ -357,6 +363,8 @@ header {
   #prlanguages li {
     display: flex;
     flex-direction: column;
+    width: 122px;
+    height: 120px;
   }
 
   .languages li h4 {
@@ -442,6 +450,11 @@ header {
   .frontend {
     padding-top: 16px;
     padding-bottom: 16px;
+  }
+
+  .bgc {
+    background-color: #fff;
+    border-radius: 0 100px 0 0 / 100px;
   }
 }
 

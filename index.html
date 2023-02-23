@@ -22,7 +22,7 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </header>  
-        <section class="headline">
+        <section class="headline" id="headlin">
             <h1 class="heading" id="heading">I’m Abednego<br> Glad to see<br> you!</h1>
             <article class="main" id="main">
                 <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -220,58 +220,60 @@
             </div>
         </div>
     </section>
-    <section class="about">
-        <div class="aboutmyself">
-            <h2 class="heading">About<br> Myself</h2>
-            <article class="main">
-                <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-            </article>
-            <h2 class="connect">LET'S CONNECT</h2>
-            <div>
-                <ul class="social">
-                    <li><a href="#"><img src="icons/Vector.png" alt="twitter_icon"></a></li>
-                    <li><a href="#"><img src="icons/Linkedin icon.png" alt="Linkedin_icon"></a></li>
-                    <li><a href="#"><img src="icons/Vector (1).png" alt="Medium_icon"></a></li>
-                    <li><a href="#"><img src="icons/Vector (2).png" alt="Github_icon"></a></li>
-                    <li><a href="#"><img src="icons/Vector (3).png" alt="Chill_icon"></a></li>
+    <div class="bgc">
+        <section class="about">
+            <div class="aboutmyself">
+                <h2 class="heading">About<br> Myself</h2>
+                <article class="main">
+                    <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                </article>
+                <h2 class="connect">LET'S CONNECT</h2>
+                <div>
+                    <ul class="social">
+                        <li><a href="#"><img src="icons/Vector.png" alt="twitter_icon"></a></li>
+                        <li><a href="#"><img src="icons/Linkedin icon.png" alt="Linkedin_icon"></a></li>
+                        <li><a href="#"><img src="icons/Vector (1).png" alt="Medium_icon"></a></li>
+                        <li><a href="#"><img src="icons/Vector (2).png" alt="Github_icon"></a></li>
+                        <li><a href="#"><img src="icons/Vector (3).png" alt="Chill_icon"></a></li>
+                    </ul>
+                </div> 
+                <button type="button" class="seeproject">Get my resume</button>   
+            </div>
+            <div id="about">
+                <ul class="languages">
+                    <li><h4>Languages</h4></li>
+                    <li><img class="separ" src="icons/un.png" alt="un.png"></li>
                 </ul>
-            </div> 
-            <button type="button" class="seeproject">Get my resume</button>   
-        </div>
-        <div id="about">
-            <ul class="languages">
-                <li><h4>Languages</h4></li>
-                <li><img class="separ" src="icons/un.png" alt="un.png"></li>
-            </ul>
-            <ul class="prlanguages" id="prlanguages">
-                <li><img src="icons/Ellipse 1.png" alt="Ellipse">Javascript</li>
-                <li><img src="icons/Ellipse 1 (1).png" alt="Ellipse">HTML</li>
-                <li><img src="icons/Ellipse 1 (2).png" alt="Ellipse">CSS</li>
-            </ul>
-            <ul class="languages">
-                <li><h4>Frameworks</h4></li>
-                <li><img class="separ" src="icons/u.png" alt="un.png"></li>
-            </ul>
-            <img class="separa" src="icons/Separator Bottom.png" alt="Separator">
-            <ul class="languages">
-                <li><h4>Skills</h4></li>
-                <li><img class="separ" src="icons/u.png" alt="un.png"></li>
-            </ul>
-            <img class="separa" src="icons/Separator Bottom.png" alt="Separator">
-        </div>
-    </section> 
-    <section class="contactform">
-        <article class="contactme" id="contactme">
-            <h2 class="cme">Contact me</h2>
-            <p class="pme">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-        </article>
-        <form class="form" action="https://formspree.io/f/mnqydvzj" method="post">
-            <input name="Name" id="name" type="text" placeholder="Name..." maxlength="30" required><br>
-            <input name="Email" id="email" type="email" placeholder="you@example.com" required><br>
-            <textarea name="message" id="textarea" placeholder="Write your message here..." maxlength="500" required></textarea><br>
-            <button class="submitted" type="submit">Get in touch</button>
-        </form>
-        <div class="end"></div>
-    </section> 
+                <ul class="prlanguages" id="prlanguages">
+                    <li><img src="icons/Ellipse 1.png" alt="Ellipse">Javascript</li>
+                    <li><img src="icons/Ellipse 1 (1).png" alt="Ellipse">HTML</li>
+                    <li><img src="icons/Ellipse 1 (2).png" alt="Ellipse">CSS</li>
+                </ul>
+                <ul class="languages">
+                    <li><h4>Frameworks</h4></li>
+                    <li><img class="separ" src="icons/u.png" alt="un.png"></li>
+                </ul>
+                <img class="separa" src="icons/Separator Bottom.png" alt="Separator">
+                <ul class="languages">
+                    <li><h4>Skills</h4></li>
+                    <li><img class="separ" src="icons/u.png" alt="un.png"></li>
+                </ul>
+                <img class="separa" src="icons/Separator Bottom.png" alt="Separator">
+            </div>
+        </section> 
+        <section class="contactform">
+            <article class="contactme" id="contactme">
+                <h2 class="cme">Contact me</h2>
+                <p class="pme">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+            </article>
+            <form class="form" action="https://formspree.io/f/mnqydvzj" method="post">
+                <input name="Name" id="name" type="text" placeholder="Name..." maxlength="30" required><br>
+                <input name="Email" id="email" type="email" placeholder="you@example.com" required><br>
+                <textarea name="message" id="textarea" placeholder="Write your message here..." maxlength="500" required></textarea><br>
+                <button class="submitted" type="submit">Get in touch</button>
+            </form>
+            <div class="end"></div>
+        </section> 
+    </div>
 </body>
 </html>
