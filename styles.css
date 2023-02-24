@@ -285,12 +285,12 @@ header {
     animation-name: margin;
     animation-direction: normal;
   }
-  
+
   @keyframes margin {
     from {
       margin: 30%;
     }
-  
+
     to {
       margin: 0;
     }
