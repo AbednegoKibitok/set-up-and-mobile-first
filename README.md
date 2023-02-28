@@ -26,7 +26,7 @@
 
 > This is my first Microverse Project. It contains some things I am capable of doing as a software developer.
 
-**[HELLO MICROVERSE PROJECT]** is a website that tests my web development skills.
+**[HELLO MICROVERSE PROJECT]** is a responsive website that tests my web development skills. 
 
 ## 🛠 Built With <a name="HTML and CSS"></a>
 
@@ -56,7 +56,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://AbednegoKibitok/github.io/set-up-and-mobile-first)
+- [Live Demo Link](https://set-up-and-mobile-first/github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
