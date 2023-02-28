@@ -56,7 +56,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://set-up-and-mobile-first/github.io/)
+- [Live Demo Link](https://abednegokibitok.github.io/set-up-and-mobile-first/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
